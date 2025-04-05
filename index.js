@@ -1,7 +1,9 @@
 import { loops } from "./loops.js";
+import { obj } from "./arrAndObjects.js";
 
 const main = () => {
-    loops([1, 2, 3], 8);
+    obj();
+    //loops([1, 2, 3], 8);
 }
 
 main();
