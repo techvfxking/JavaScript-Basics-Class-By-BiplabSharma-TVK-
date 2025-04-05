@@ -1,8 +1,8 @@
 import { loops } from "./loops.js";
-import { obj } from "./arrAndObjects.js";
+import { obj, filterObject } from "./arrAndObjects.js";
 
 const main = () => {
-    obj();
+    filterObject();
     //loops([1, 2, 3], 8);
 }
 
