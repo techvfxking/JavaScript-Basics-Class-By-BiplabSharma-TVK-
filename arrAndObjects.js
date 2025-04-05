@@ -41,7 +41,6 @@ export const obj = () => {
                         designation: "Junior Software Engineer",
                         activeStatus: true
                     },
-                    ,
                     {
                         company: "B",
                         designation: "Associate Software Engineer",
