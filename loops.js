@@ -15,8 +15,7 @@ export const loops = (arr = [], type = 1) => {
     }
     //3rd Way 
     else if (type === 3) {//For Of Loop return array object with Index and Array element
-        for (const obj of arr.entries()) {
-            const [index, value] = obj;
+        for (const [index, value] of arr.entries()) {
             result += value
         }
     }

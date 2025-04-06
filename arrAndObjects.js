@@ -55,6 +55,7 @@ export const obj = () => {
 
 export const filterObject = () => {
     const complexObj = obj();
+    
     //Sathi-----
     let sathiName = complexObj.name1;
     let sathiAge = complexObj.ages.sathiAge;
@@ -86,3 +87,50 @@ export const filterObject = () => {
         console.log(`${keys[j]}: ${activeJob[keys[j]]}`);
     }
 }
+
+export const spreadOperators = () => {
+    let arr1 = [1,2,3,4,5];
+    let arr2 = [6,7,8,9,10];
+
+    //Symbol of Spread Operator '...' (Three Dots)
+    arr1 = [
+        ...arr1, //1, 2, 3, 4, 5
+        ...arr2
+    ];
+
+    let obj1 = {
+        name1: "Mouli",
+        age1: 2,
+        class1: 1
+    }
+
+    let obj2 = {
+        name2: "Sathi",
+        age2: 2.5,
+        class2: 1.5
+    }
+
+    obj1 = {
+        ...obj1,
+        ...obj2
+    }
+
+    console.log(arr1);
+    console.log(obj1);
+}
+
+export const spreadOperatorExcercise = () => {
+    let obj = {
+        name: "a",
+        age: 1,
+        class: 1,
+        status: "active",
+        status$: true,
+        color: "red",
+        role: "dev",
+        attendance: "Present"
+    }
+
+    
+}
+
