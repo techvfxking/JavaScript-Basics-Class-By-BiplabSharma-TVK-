@@ -1,3 +1,5 @@
+import { printObjects } from "./helper.js";
+
 export const obj = () => {
     let simpleOBj = {
         name: "Biplab",
@@ -131,6 +133,20 @@ export const spreadOperatorExcercise = () => {
         attendance: "Present"
     }
 
+    if(obj.status$ === true){
+        obj = {
+            ...obj,
+            color: "green",
+            visibility: true
+        }
+    }
+
+   printObjects(obj,1);
+   console.log("................");
+   console.log("................");
+   console.log("................");
+   console.log("................");
+   printObjects(obj,2);
     
 }
 
